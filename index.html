@@ -12,14 +12,18 @@
 <body style="margin:20px">
   <div>
 	  <label>Employee name</label>
-	  <input type="text" id="EmployeeName" ng-model="employeeName">
+	  <input type="text" id="EmployeeName" ng-model="employeeName"><br>
 
 	  <label>Employee age</label>
 	  <input type="text" id="EmployeeAge" ng-model="employeeAge">
   </div>
-
+   <div>
+      <button class="btn btn-default" ng-click="saveEmployee()">Save
+      <span class="glyphicon glyphicon-ok">
+      </span>
+      </button>
   <div>
-    Employee Name :{{employeeName}}
+    Employee Name :{{employeeName}}<br>
     Employee Age :{{employeeAge}}
 </body>
 </html>
